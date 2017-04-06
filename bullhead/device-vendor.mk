@@ -45,8 +45,7 @@ PRODUCT_PACKAGES += \
     GCS \
     HotwordEnrollment \
     LifeTimerService \
-    SprintDM \
-    Turbo
+    SprintDM
 
 # Symlinks
 PRODUCT_PACKAGES += \
