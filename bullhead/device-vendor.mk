@@ -16,14 +16,26 @@ $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
+    AndroidPlatformServices \
     atfwd \
+    CNEService \
+    ConnMO \
     datastatusnotification \
+    DCMO \
+    DiagMon \
+    DMConfigUpdate \
+    DMService \
+    Entitlement \
+    GCS \
     HiddenMenu \
+    HotwordEnrollmentWCD9330 \
     ims \
+    LifeTimerService \
     qcrilmsgtunnel \
     RCSBootstraputil \
     RcsImsBootstraputil \
     SetupSmartDeviceOverlay \
+    SprintDM \
     TimeService \
     Tycho
 
@@ -33,19 +45,6 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     rcsimssettings \
     rcsservice
-
-# Prebuilt privileged APKs
-PRODUCT_PACKAGES += \
-    CNEService \
-    ConnMO \
-    DCMO \
-    DiagMon \
-    DMConfigUpdate \
-    DMService \
-    GCS \
-    HotwordEnrollment \
-    LifeTimerService \
-    SprintDM
 
 # Symlinks
 PRODUCT_PACKAGES += \

@@ -19,9 +19,9 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),bullhead)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := atfwd
+LOCAL_MODULE := AndroidPlatformServices
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := atfwd/atfwd.apk
+LOCAL_SRC_FILES := AndroidPlatformServices/AndroidPlatformServices.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
@@ -30,9 +30,9 @@ LOCAL_MULTILIB := both
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := CarrierEntitlement
+LOCAL_MODULE := atfwd
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := CarrierEntitlement/CarrierEntitlement.apk
+LOCAL_SRC_FILES := atfwd/atfwd.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
@@ -119,6 +119,17 @@ LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := Entitlement
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := Entitlement/Entitlement.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MULTILIB := both
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := GCS
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := GCS/GCS.apk
@@ -130,9 +141,9 @@ LOCAL_MULTILIB := both
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := HotwordEnrollment
+LOCAL_MODULE := HotwordEnrollmentWCD9330
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := HotwordEnrollment/HotwordEnrollment.apk
+LOCAL_SRC_FILES := HotwordEnrollmentWCD9330/HotwordEnrollmentWCD9330.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
