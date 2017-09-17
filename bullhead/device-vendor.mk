@@ -16,7 +16,6 @@ $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-    AndroidPlatformServices \
     atfwd \
     CNEService \
     ConnMO \
@@ -42,6 +41,7 @@ PRODUCT_PACKAGES += \
 # Prebuilt jars
 PRODUCT_PACKAGES += \
     cneapiclient \
+    com.google.android.camera.experimental2016 \
     qcrilhook \
     rcsimssettings \
     rcsservice

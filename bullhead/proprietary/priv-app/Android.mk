@@ -19,17 +19,6 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),bullhead)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := AndroidPlatformServices
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := AndroidPlatformServices/AndroidPlatformServices.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MULTILIB := both
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := atfwd
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := atfwd/atfwd.apk

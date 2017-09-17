@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lge/bullhead/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lge/bullhead/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/lge/bullhead/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/bullhead/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lge/bullhead/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/bullhead/proprietary/bin/nl_listener:system/bin/nl_listener \
@@ -54,11 +53,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/lge/bullhead/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/lge/bullhead/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
+    vendor/lge/bullhead/proprietary/etc/permissions/com.android.sdm.plugins.connmo.xml:system/etc/permissions/com.android.sdm.plugins.connmo.xml \
+    vendor/lge/bullhead/proprietary/etc/permissions/com.android.sdm.plugins.sprintdm.xml:system/etc/permissions/com.android.sdm.plugins.sprintdm.xml \
     vendor/lge/bullhead/proprietary/etc/permissions/com.google.android.camera.experimental2016.xml:system/etc/permissions/com.google.android.camera.experimental2016.xml \
+    vendor/lge/bullhead/proprietary/etc/permissions/privapp-permissions-bullhead.xml:system/etc/permissions/privapp-permissions-bullhead.xml \
     vendor/lge/bullhead/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/bullhead/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lge/bullhead/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
     vendor/lge/bullhead/proprietary/etc/sysconfig/bullhead_common.xml:system/etc/sysconfig/bullhead_common.xml \
+    vendor/lge/bullhead/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/lge/bullhead/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lge/bullhead/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lge/bullhead/proprietary/etc/lowi.conf:system/etc/lowi.conf \
@@ -69,8 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/soundfx/libqcomvoiceprocessingdescriptors.so:system/lib/soundfx/libqcomvoiceprocessingdescriptors.so \
     vendor/lge/bullhead/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
-    vendor/lge/bullhead/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/lge/bullhead/proprietary/lib/libfilterpack_imageproc.so:system/lib/libfilterpack_imageproc.so \
     vendor/lge/bullhead/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/bullhead/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/lge/bullhead/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
@@ -81,9 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
     vendor/lge/bullhead/proprietary/lib64/hw/gps.msm8992.so:system/lib64/hw/gps.msm8992.so \
     vendor/lge/bullhead/proprietary/lib64/soundfx/libqcomvoiceprocessingdescriptors.so:system/lib64/soundfx/libqcomvoiceprocessingdescriptors.so \
-    vendor/lge/bullhead/proprietary/lib64/libfacenet.so:system/lib64/libfacenet.so \
-    vendor/lge/bullhead/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
-    vendor/lge/bullhead/proprietary/lib64/libfilterpack_imageproc.so:system/lib64/libfilterpack_imageproc.so \
     vendor/lge/bullhead/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/lge/bullhead/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/lge/bullhead/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
