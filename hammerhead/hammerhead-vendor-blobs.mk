@@ -87,6 +87,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/lib/libssd.so:system/lib/libssd.so \
     vendor/lge/hammerhead/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/hammerhead/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/lge/hammerhead/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/lge/hammerhead/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/lge/hammerhead/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
     vendor/lge/hammerhead/proprietary/vendor/bin/vss_init:system/vendor/bin/vss_init \
     vendor/lge/hammerhead/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/lge/hammerhead/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
